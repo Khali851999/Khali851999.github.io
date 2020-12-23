@@ -12,7 +12,8 @@ const greeting = {
   nickname: "Khali851999",
   subTitle:
     "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
+        // "Detail-oriented, responsible and committed member with get-it-done, on-time, high-quality product spirit. Skilled in Android Application development, UI/UX Designing, Data Structures and Algorithms in C++ and Java, an analytical user of Git version control, Firebase suite. Have working knowledge of Kotlin, MVVM architecture, Dependancy Injection(Dagger2, Dagger-Hilt), HTML, CSS, JavaScript, REST APIs, Networking (Retrofit). Worked on applications currently on the Google Play store with over 20,000+ downloads and 1500+ Daily Active Users. Worked on team projects as a project lead as well as a freelancer. Developed a few Voice enabled applications for Google Assistant and Amazon Alexa.",
+    resumeLink:
     "https://drive.google.com/file/d/1fWG_JQBYyaaNXlavxaI55Ha4euHf2sou/view?usp=sharing",
   portfolio_repository: "https://github.com/Khali851999",
 };
@@ -74,42 +75,57 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Android Development",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Developing highly scalable production ready android apps",
+        "⚡ Experience of working with MVVM architecture and Dependacy Injection (Dagger2)",
+        "⚡ Libraries - Retrofit, Glide, Room, Firebase, Glide",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Android",
+          fontAwesomeClassname: "simple-icons:android",
+          style: {
+            backgroundColor: "transparent",
+            color: "#339933"
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "logos:firebase",
+          style: {
+            backgroundColor: "transparent",
+            color: "",
+          },
+        },
+        {
+          skillName: "Kotlin",
+          fontAwesomeClassname: "logos-kotlin",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Java",
+          fontAwesomeClassname: "logos-java",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos-mysql",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "GCP",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: {
+            color: "#4285F4",
           },
         },
       ],
@@ -118,9 +134,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building resposive website front end using HTML, CSS, JS",
       ],
       softwareSkills: [
         {
@@ -173,27 +187,27 @@ const skills = {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
+        // {
+        //   skillName: "Yarn",
+        //   fontAwesomeClassname: "simple-icons:yarn",
+        //   style: {
+        //     color: "#2C8EBB",
+        //   },
+        // },
+        // {
+        //   skillName: "Gatsby",
+        //   fontAwesomeClassname: "simple-icons:gatsby",
+        //   style: {
+        //     color: "#663399",
+        //   },
+        // },
+        // {
+        //   skillName: "Flutter",
+        //   fontAwesomeClassname: "simple-icons:flutter",
+        //   style: {
+        //     color: "#02569B",
+        //   },
+        // },
       ],
     },
     {
@@ -264,45 +278,45 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Creating the flow of application functionalities to optimize user experience",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Figma",
+    //       fontAwesomeClassname: "simple-icons:figma",
+    //       style: {
+    //         color: "#F24E1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe Illustrator",
+    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //       style: {
+    //         color: "#FF7C00",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Inkscape",
+    //       fontAwesomeClassname: "simple-icons:inkscape",
+    //       style: {
+    //         color: "#000000",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -348,11 +362,12 @@ const degrees = {
   degrees: [
     {
       title: "Delhi Technological University (Formerly Delhi College of Engineering)",
-      subtitle: "B.Tech. in Software Engineering",
-      logo_path: "iiitk_logo.png",
+      subtitle: "Bachelors of Technology in Software Engineering",
+      logo_path: "dtu.png",
       alt_name: "DTU",
       duration: "2018 - Present",
       descriptions: [
+        "Agg. CGPA - 9.00",
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS etc.",
         "⚡ Apart from this, I have done courses on Software Testing, Object Oriented Software Design."
       ],
@@ -365,58 +380,49 @@ const certifications = {
   certifications: [
     {
       title: "Complete Android Development Bootcamp",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      subtitle: "Udemy",
+      logo_path: "udemy.jpeg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "http://ude.my/UC-CFZVD53I",
+      alt_name: "Udemy",
       color_code: "#8C151599",
     },
     {
-      title: "Introduction to WebDevelopment",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Introduction to Web Development",
+      subtitle: "UC Davis",
+      logo_path: "coursera_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://www.coursera.org/account/accomplishments/certificate/34JMB74S8LQJ",
       alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+      color_code: "#2A73CC",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    }, 
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
+      title: "Google Cloud Platform",
+      subtitle: "Qwiklabs",
       logo_path: "gcp_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+        "https://google.qwiklabs.com/public_profiles/16ba1c99-8b24-4840-af27-d8c5d9648c43",
       alt_name: "GCP",
       color_code: "#4285F499",
     },
     {
       title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
+      subtitle: "University of Maryland",
+      logo_path: "coursera_logo.png",
       certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
+        "https://coursera.org/share/b356e9b04958c95487b64d7f5db8c738",
+      alt_name: "Coursera",
+      color_code: "#2A73CC",
     },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    // {
+    //   title: "Cloud Architecture",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
   ],
 };
 
@@ -469,6 +475,17 @@ const experience = {
     {
       title: "Work Experience",
       experiences: [
+        // {
+        //   title: "Incomming Software Development Intern",
+        //   company: "Schlumberger",
+        //   company_url: "https://www.schlumberger.com/",
+        //   logo_path: "dn.jpg",
+        //   duration: "May 2020 - Current",
+        //   location: "Gurgaon, Haryana",
+        //   description:
+        //     "Working on the Android app having 10M+ downloads to improve the UX and product quality by integrating new changes using MVVM architecture with Kotlin, RoomDB, Retrofit",
+        //   color: "#ee3c26",
+        // },
         {
           title: "Software Development Intern",
           company: "Doubtnut",
@@ -596,13 +613,13 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "akshat.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Android, Data Structures, Algorithms Cloud, Version Control and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
+    link: "https://medium.com/@akshatjindal215",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
@@ -613,8 +630,8 @@ const contactPageData = {
     location_map_link: "",
   },
   phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 9899717933",
+    title: "",
+    subtitle: "",
   },
 };
 
