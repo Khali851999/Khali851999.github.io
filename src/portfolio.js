@@ -9,7 +9,7 @@ const settings = {
 const greeting = {
   title: "Akshat Jindal",
   logo_name: "Akshat",
-  nickname: "Khali851999",
+  nickname: "",
   subTitle:
     "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
         // "Detail-oriented, responsible and committed member with get-it-done, on-time, high-quality product spirit. Skilled in Android Application development, UI/UX Designing, Data Structures and Algorithms in C++ and Java, an analytical user of Git version control, Firebase suite. Have working knowledge of Kotlin, MVVM architecture, Dependancy Injection(Dagger2, Dagger-Hilt), HTML, CSS, JavaScript, REST APIs, Networking (Retrofit). Worked on applications currently on the Google Play store with over 20,000+ downloads and 1500+ Daily Active Users. Worked on team projects as a project lead as well as a freelancer. Developed a few Voice enabled applications for Google Assistant and Amazon Alexa.",
@@ -476,26 +476,44 @@ const experience = {
     {
       title: "Work Experience",
       experiences: [
-        // {
-        //   title: "Incomming Software Development Intern",
-        //   company: "Schlumberger",
-        //   company_url: "https://www.schlumberger.com/",
-        //   logo_path: "dn.jpg",
-        //   duration: "May 2020 - Current",
-        //   location: "Gurgaon, Haryana",
-        //   description:
-        //     "Working on the Android app having 10M+ downloads to improve the UX and product quality by integrating new changes using MVVM architecture with Kotlin, RoomDB, Retrofit",
-        //   color: "#ee3c26",
-        // },
+        {
+          title: "Software Development Intern",
+          company: "ShareChat",
+          company_url: "https://sharechat.com/",
+          logo_path: "sharechat.png",
+          duration: "Aug 2021 - Current",
+          location: "Banglore, Karnataka",
+          description:
+            "• Working in the Chat team, implemented virtual gifting option during chatroom sessions which increased the pod revenue by 6%. \n" +
+            "• Decreased build time by removing the redundant inter-module dependancies. \n" +
+            "• STACK: Jetpack Compose, Kotlin, Retrofit, Hilt",
+          color: "#ee3c26",
+        },
+        {
+          title: "Software Development Intern",
+          company: "Intuit Inc.",
+          company_url: "https://intuit.com/",
+          logo_path: "intuit.png",
+          duration: "May 2021 - July 2021",
+          location: "Gurgaon, Kartnataka",
+          description:
+            "• Created a UI automation tool in Python that uses WinAppDriver and Selenium to record and playback test cases using JSON conversions. \n" +
+            "• Integrated it with the Jenkins CI/CD pipeline. \n" +
+            "• Eliminated manual Build Validation and Regression Testing \n" +
+            "• Reduced QA testing time by 90%.",
+          color: "#ee3c26",
+        },
         {
           title: "Software Development Intern",
           company: "Doubtnut",
           company_url: "https://www.doubtnut.com/",
           logo_path: "dn.jpg",
-          duration: "Nov 2020 - Current",
+          duration: "Nov 2020 - April 2021",
           location: "Gurgaon, Haryana",
           description:
-            "Working on the Android app having 10M+ downloads to improve the UX and product quality by integrating new changes using MVVM architecture with Kotlin, RoomDB, Retrofit",
+            "Worked on android app migrating to Razorpay custom SDK and revamp existing checkout flow, reduced total checkout time by roughly 60%. \n" +
+            "• Implemented sticky notifications for content enagagement using Firebase Cloud Messaging, improving conversions from 12% to 19%. \n" +
+            "• STACK:MVVM, Kotlin, Retrofit, RoomDB, Dagger2",
           color: "#ee3c26",
         },
         {
@@ -540,6 +558,17 @@ const experience = {
       title: "Mentor and Volunteer Experience",
       experiences: [
         {
+          title: "Android Lead",
+          company: "DSC-DTU",
+          company_url: "https://dsc-dtu.github.io/",
+          logo_path: "dsc.png",
+          duration: "Sept 2020 - Current",
+          location: "Delhi",
+          description:
+            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and Open Source development. The community is available at apidtu on github.",
+          color: "#4285F4",
+        },
+        {
           title: "Founder and Lead",
           company: "HackClub DTU",
           company_url: "https://hackclub.com/",
@@ -547,7 +576,7 @@ const experience = {
           duration: "Sept 2020 - Current",
           location: "Delhi",
           description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and Open Source development. The community is available at apidtu on github.",
+            "We have well established developer club in college which is directly associated with HackClub. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and Open Source development. The community is available at apidtu on github.",
           color: "#4285F4",
         },
         {
