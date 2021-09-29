@@ -9,7 +9,7 @@ const settings = {
 const greeting = {
   title: "Akshat Jindal",
   logo_name: "Akshat",
-  nickname: "",
+  nickname: "@Khali851999",
   subTitle:
     "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
         // "Detail-oriented, responsible and committed member with get-it-done, on-time, high-quality product spirit. Skilled in Android Application development, UI/UX Designing, Data Structures and Algorithms in C++ and Java, an analytical user of Git version control, Firebase suite. Have working knowledge of Kotlin, MVVM architecture, Dependancy Injection(Dagger2, Dagger-Hilt), HTML, CSS, JavaScript, REST APIs, Networking (Retrofit). Worked on applications currently on the Google Play store with over 20,000+ downloads and 1500+ Daily Active Users. Worked on team projects as a project lead as well as a freelancer. Developed a few Voice enabled applications for Google Assistant and Amazon Alexa.",
